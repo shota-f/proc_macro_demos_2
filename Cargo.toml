@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "heap_size",
+    "heap_size/heap_size_derive",
+    "heap_size_demo"
+]
