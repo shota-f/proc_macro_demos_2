@@ -1,0 +1,13 @@
+[package]
+name = "lazy_static"
+version = "0.1.0"
+authors = ["shota.f <shota.fk8@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc_macro = true
+
+[dependencies]
+proc-macro2 = "0.4"
+syn = { version = "0.15", features = [ "full" ] }
+quote = "0.6"
